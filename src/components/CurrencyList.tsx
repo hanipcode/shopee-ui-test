@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Card, Row, Col } from 'react-onsenui';
+import { Card } from 'react-onsenui';
 import CurrencyListItem from './CurrencyListItem';
 import AddCurrencyButton from './AddCurrencyButton';
 import { CurrencyOption } from '../helpers/getRatesOptions';
@@ -53,11 +53,5 @@ function CurrencyList({ ratesOptions, ratesData, base, inputValue }: Props) {
     </div>
   );
 }
-
-const styles = {
-  container: {
-    margin: 8,
-  },
-};
 
 export default CurrencyList;

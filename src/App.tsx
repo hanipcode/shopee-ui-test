@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import { Page, Toolbar, Col, Input, Card } from 'react-onsenui';
-import accounting from 'accounting';
 import ColorEnum from './styles/color';
 import BaseInfo from './components/BaseInfo';
 import useRatesData from './hooks/useRatesData';
